@@ -23,3 +23,4 @@ do_rsync /mnt/nas/Foto
 do_rsync /mnt/nas/Dokument
 do_rsync /mnt/nas/Musik
 do_rsync /mnt/nas/Projekt
+
