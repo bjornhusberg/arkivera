@@ -13,7 +13,7 @@ if [ ! -d "$DEST" ]; then
 fi
 
 function do_rsync {
-	/usr/local/bin/rsync --iconv utf-8-mac,utf-8 -av -e ssh "pi2:$1" "$DEST"
+	/usr/local/bin/rsync --iconv utf-8-mac,utf-8 -av -e ssh "husberg.se:$1" "$DEST"
 	if [ $? -ne 0 ]; then
 		exit 1
 	fi
